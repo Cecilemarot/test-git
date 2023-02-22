@@ -1,0 +1,134 @@
+header {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-first-block {
+    width: 375px;
+    box-shadow: 0px 2px 4px 0px #00000026;
+    display: flex;
+
+    justify-content: center;
+}
+
+.header-picture {
+    height: 44px;
+    width: 162px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-logo {
+    height: 50px;
+    width: 375px;
+    background-color: #EAEAEA;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-logo i {
+    margin-right: 10px;
+}
+
+.presentation-block-header {
+    background-color: #F6F6F6;
+    height: 287px;
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-presentation-block-header {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 218px;
+    top: 50px;
+    border-radius: 25px;
+    background: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
+    color: white;
+    padding-top: 13px;
+}
+
+.instruction-block {
+    height: 340px;
+    width: 375px;
+    padding-top: 48px;
+    padding-bottom: 68px;
+    padding-left: 32px;
+}
+
+.card-instruction-block {
+    height: 72px;
+    width: 322px;
+    left: 32px;
+    top: 505px;
+    border-radius: 20px;
+    background: #F6F6F6;
+    box-shadow: 0px 4px 15px 0px #00000026;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card-instruction-block i {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.number-instruction-block {
+    background: #9356DC;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    color: #ffffff;
+}
+
+.restaurant-block {
+    background: #F6F6F6;
+    width: 375px;
+}
+
+.card-container-restaurant-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-restaurant-block {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 15px 0px #0000001A;
+    height: 251px;
+    width: 335px;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.card-restaurant-block img {
+    width: 335px;
+    height: 190px;
+}
+
+.card-restaurant-block h2 {
+    font-size: 18px;
+}
+
+
+.footer-container {
+    height: 197px;
+    width: 375px;
+    background-color: #353535;
+    color: #ffffff;
+}
+
+.footer-container a {
+    text-decoration: none;
+}
